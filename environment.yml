@@ -1,0 +1,20 @@
+name: early_intervention
+
+channels:
+ - conda-forge
+ 
+dependencies:
+- python=3.6
+- ipython
+- ipyparallel
+- jupyter
+- notebook
+- seaborn 
+- patsy 
+- pandas
+- pytest
+- theano
+- xlrd
+- pip:
+    - git+https://github.com/pymc-devs/pymc3.git#egg=pymc3
+    - git+https://github.com/sburns/PyCap.git#egg=PyCap
