@@ -106,3 +106,4 @@ ENV/
 .mypy_cache/
 
 api_token.txt
+nohup.out
