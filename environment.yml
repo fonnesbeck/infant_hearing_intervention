@@ -17,4 +17,5 @@ dependencies:
 - xlrd
 - pip:
     - git+https://github.com/pymc-devs/pymc3.git#egg=pymc3
+    - papermill
     - git+https://github.com/sburns/PyCap.git#egg=PyCap
