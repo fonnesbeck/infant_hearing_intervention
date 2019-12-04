@@ -8,6 +8,7 @@ dependencies:
 - ipython
 - ipyparallel
 - jupyter
+- jupyterlab
 - notebook
 - seaborn 
 - patsy 
@@ -15,6 +16,8 @@ dependencies:
 - pytest
 - theano
 - xlrd
+- mkl-service
+- pip
 - pip:
     - git+https://github.com/pymc-devs/pymc3.git#egg=pymc3
     - papermill
